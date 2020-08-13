@@ -1,0 +1,5 @@
+https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/
+sudo apt update
+sudo apt install ssh-server
+sudo systemctl status ssh
+sudo ufw allow ssh
